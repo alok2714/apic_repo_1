@@ -1,0 +1,52 @@
+swagger: '2.0'
+info:
+  version: 1.0.0
+  title: API_Example1
+  x-ibm-name: api_example1
+basePath: /v1
+paths:
+  /randomText:
+    get:
+      responses:
+        '200':
+          description: success
+          schema:
+            type: string
+schemes:
+  - https
+x-ibm-configuration:
+  type: rest
+  phase: realized
+  enforced: true
+  testable: true
+  gateway: datapower-api-gateway
+  cors:
+    enabled: true
+  assembly:
+    execute:
+      - invoke:
+          version: 2.0.0
+          title: invoke
+          backend-type: detect
+          header-control:
+            type: blocklist
+            values: []
+          parameter-control:
+            type: allowlist
+            values: []
+          timeout: 60
+          verb: keep
+          chunked-uploads: true
+          persistent-connection: true
+          target-url: $(target-url)
+          follow-redirects: false
+          inject-proxy-headers: true
+  properties:
+    target-url:
+      value: https://api.github.com/zen
+      description: The URL of the target service
+      encoded: false
+  activity-log:
+    enabled: true
+    success-content: activity
+    error-content: payload

@@ -1,0 +1,41 @@
+info:
+  version: 1.0.0
+  title: API_EX1_product
+  name: api_ex1_product
+gateways:
+  - datapower-api-gateway
+plans:
+  default-plan:
+    title: Default Plan
+    description: Default Plan
+    rate-limits:
+      default:
+        value: 100/1hour
+    apis:
+      api_example11.0.0: {}
+  gold:
+    title: Gold
+    rate-limits:
+      Default rate-limit:
+        value: 100/1hour
+        hard-limit: false
+    burst-limits:
+      Default burst-limit:
+        value: 10/1second
+    apis:
+      api_example11.0.0: {}
+apis:
+  api_example11.0.0:
+    $ref: api_example1_1.0.0.yaml
+visibility:
+  view:
+    type: public
+    orgs: []
+    tags: []
+    enabled: true
+  subscribe:
+    type: authenticated
+    orgs: []
+    tags: []
+    enabled: true
+product: 1.0.0
