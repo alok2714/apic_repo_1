@@ -1,0 +1,5 @@
+name: dev1_subscription
+plan: gold
+product_url: https://platform-api.ap-south-a.apiconnect.automation.ibm.com/api/catalogs/0ca09744-563d-4d66-8157-c996b5fa49aa/16a2f4ed-4210-4d5f-b127-166ed433eb53/products/5795fa2c-5683-4dbd-a5f6-d8991026c65f
+summary: subscription create example
+title: DEV ONE Subscription 
