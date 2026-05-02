@@ -1,5 +1,5 @@
 name: prod1_subscription
 plan: gold
-product_url: https://platform-api.ap-south-a.apiconnect.automation.ibm.com/api/catalogs/0ca09744-563d-4d66-8157-c996b5fa49aa/16a2f4ed-4210-4d5f-b127-166ed433eb53/products/5795fa2c-5683-4dbd-a5f6-d8991026c65f
+product_url: https://platform-api.ap-south-a.apiconnect.automation.ibm.com/api/catalogs/0ca09744-563d-4d66-8157-c996b5fa49aa/799147d9-0197-4072-91d4-c171235c3bf9/products/44623f8e-8912-446a-a49e-0676b4e3f5be
 summary: subscription create example
 title: PROD ONE Subscription 
