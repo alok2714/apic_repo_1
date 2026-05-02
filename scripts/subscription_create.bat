@@ -1,1 +1,1 @@
-C:\apiccli\apic subscriptions:create --catalog DEV --org api-connect-v3-1 --server https://platform-api.ap-south-a.apiconnect.automation.ibm.com --consumer-org alokbehera271-consumer-org --app DevApp1 subscription_create.yaml
+C:\apiccli\apic subscriptions:create --catalog production --org api-connect-v3-1 --server https://platform-api.ap-south-a.apiconnect.automation.ibm.com --consumer-org alok-consumer-org --app DevApp1 subscription_create.yaml

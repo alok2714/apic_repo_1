@@ -1,7 +1,7 @@
 info:
   version: 1.0.0
-  title: API_EX1_product
-  name: api_ex1_product
+  title: APIC_product_1
+  name: apic_product_1
 gateways:
   - datapower-api-gateway
 plans:

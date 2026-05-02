@@ -1,1 +1,1 @@
-C:\apiccli\apic apps:create --catalog DEV --org api-connect-v3-1 --server https://platform-api.ap-south-a.apiconnect.automation.ibm.com --consumer-org alokbehera271-consumer-org app_create.yaml
+C:\apiccli\apic apps:create --catalog production --org api-connect-v3-1 --server https://platform-api.ap-south-a.apiconnect.automation.ibm.com --consumer-org alok-consumer-org app_create.yaml

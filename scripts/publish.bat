@@ -1,1 +1,1 @@
-C:\apiccli\apic products:publish --catalog DEV --org api-connect-v3-1 --server https://platform-api.ap-south-a.apiconnect.automation.ibm.com  api_ex1_product_1.0.0.yaml --debug
+C:\apiccli\apic products:publish --catalog production --org api-connect-v3-1 --server https://platform-api.ap-south-a.apiconnect.automation.ibm.com  api_ex1_product_1.0.0.yaml --debug

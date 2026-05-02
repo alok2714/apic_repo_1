@@ -1,8 +1,8 @@
 swagger: '2.0'
 info:
   version: 1.0.0
-  title: API_Example1
-  x-ibm-name: api_example1
+  title: APIC_Example1
+  x-ibm-name: apic_example1
 basePath: /v1
 paths:
   /randomText:
